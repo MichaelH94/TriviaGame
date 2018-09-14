@@ -1,0 +1,29 @@
+/* Styles */
+
+#answers {
+    font-size: 32px;
+    font-weight: bold;
+    text-shadow: 2px 2px darkslategray;
+    color: white;
+}
+
+#answer1:hover, #answer2:hover, #answer3:hover, #answer4:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.jumbotron {
+    background: paleturquoise;
+    font-weight: bold;
+}
+
+body {
+    background: lightskyblue;
+    color: darkslategray
+}
+
+#gameStats {
+    font-size: 20px;
+
+}
+

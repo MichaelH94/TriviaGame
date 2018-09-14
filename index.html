@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
+
+    <title>Music Trivia</title>
+  </head>
+  <body>
+    <div class="container text-center">
+    <div class="jumbotron text-center">
+      <h1 class="display-4">Music Trivia!</h1>
+      <div class="container">
+        <p>Instructions: Click the start button to begin! Simply click an answer to select it. If you choose the right answer, you'll move on to the next round and 
+          gain a point! If you choose wrong, you'll still move on, but won't gain any points. You only have 15 seconds to choose an answer, so be quick. If time runs out, it'll count as a wrong guess! Good luck!
+        </p>
+        <hr class="my-4" id="titleDivider">
+        <button type="button" class="btn btn-success" id="start">Start!</button>
+        <br>
+        <br>
+        <div id="question"></div>
+        <br>
+        <br>
+        <div id="timer"></div>
+      </div>
+    </div>
+    <br>
+  <div class="container">
+    <div id="answers">
+    <div id="answer1"></div>
+    <br>
+    <div id="answer2"></div>
+    <br>
+    <div id="answer3"></div>
+    <br>
+    <div id="answer4"></div>
+    <br>
+    <br>
+  </div>
+    <div id="gameStats"></div> 
+    </div>
+  </div>
+  </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="assets/js/trivia.js"></script>
+
+    
+  </body>
+</html>
